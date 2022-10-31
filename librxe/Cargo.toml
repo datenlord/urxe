@@ -1,0 +1,16 @@
+[package]
+name = "librxe"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+librxe-sys = { path = "../librxe-sys" }
+rdma-sys = { git ="https://github.com/Gwzlchn/rdma-sys"}
+nix = "0.24.1"
+libc = "0.2.126"
+
+[dev-dependencies]
+tempdir = "0.3"
+ibverbs=  "0.7"
