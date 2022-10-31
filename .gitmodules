@@ -1,0 +1,3 @@
+[submodule "librxe-sys/vendor/rdma-core"]
+	path = librxe-sys/vendor/rdma-core
+	url = git@github.com:Gwzlchn/rdma-core.git
